@@ -1,47 +1,83 @@
-# 🚀 AI Study Agent (Auth0 Token Vault Project)
+# EcoStudy AI – Sustainable Learning Assistant
 
-## 📌 Overview
-AI Study Agent is a secure AI-powered assistant that helps students with study-related queries.  
-It uses **Auth0 Token Vault** to authenticate users and securely communicate with backend services.
+## Overview
 
----
+EcoStudy AI is an AI-powered learning assistant designed to help students study efficiently while promoting sustainable habits. The platform combines intelligent study support with environmental awareness to encourage responsible and productive learning.
 
-## ✨ Features
-- 🔐 Secure Login using Auth0  
-- 🎫 Token-based Authentication (Token Vault concept)  
-- 🤖 AI Chat Assistant  
-- 💬 Modern Chat UI (ChatGPT-style)  
-- ⚡ Fast and responsive interface  
+## Problem Statement
 
----
+Students often face difficulties in managing study schedules, maintaining focus, and accessing instant academic support. At the same time, excessive paper usage and inefficient study habits contribute to unnecessary resource consumption.
 
-## 🧠 How It Works
-1. User logs in using Auth0  
-2. Auth0 generates a secure access token  
-3. Frontend sends token to backend  
-4. Backend verifies token before responding  
-5. AI agent processes user queries  
+## Solution
 
----
+EcoStudy AI provides:
 
-## 🛠️ Tech Stack
-- Frontend: HTML, CSS, JavaScript  
-- Backend: Node.js, Express  
-- Authentication: Auth0  
-- API: OpenRouter / Custom AI fallback  
+* AI-powered doubt resolution
+* Smart study planning
+* Pomodoro-based focus sessions
+* Exam and task reminders
+* Motivational support
+* Sustainability awareness features
+* Green study recommendations
 
----
+## Features
 
-## 🔒 Security (Token Vault)
-This project demonstrates how AI agents can securely:
-- Manage access tokens  
-- Authenticate users  
-- Access protected APIs  
+### AI Doubt Solver
 
----
+Provides instant academic assistance and learning support.
 
-## ▶️ How to Run
+### Study Planner
 
-### 1. Clone Repository
-```bash
-git clone https://github.com/24A31A04A5/ai-study-agent.git
+Helps students organize daily and weekly study goals.
+
+### Pomodoro Timer
+
+Improves concentration and productivity through structured study sessions.
+
+### Exam Reminders
+
+Tracks important academic events and deadlines.
+
+### Sustainability Tips
+
+Encourages eco-friendly learning practices such as digital note-taking and reduced paper consumption.
+
+## Technologies Used
+
+* HTML
+* CSS
+* JavaScript
+* Node.js
+* Express.js
+* Auth0 Authentication
+
+## Sustainable Development Goals (SDGs)
+
+* SDG 4 – Quality Education
+* SDG 12 – Responsible Consumption and Production
+* SDG 13 – Climate Action
+
+## Project Structure
+
+```text
+frontend/
+backend/
+package.json
+server.js
+README.md
+```
+
+## Future Enhancements
+
+* Green Score Calculator
+* Carbon Footprint Estimation
+* Personalized Sustainability Recommendations
+* Advanced AI Study Analytics
+
+## Author
+
+Kishore Sai Chintala
+
+B.Tech – Electronics and Communication Engineering (ECE)
+
+Pragati Engineering College
